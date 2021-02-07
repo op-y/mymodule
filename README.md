@@ -22,4 +22,4 @@ go: github.com/op-y/mymodule@v1.0.0/go.mod: verifying module: github.com/op-y/my
 go: github.com/op-y/mymodule@v1.0.0/go.mod: verifying module: github.com/op-y/mymodule@v1.0.0/go.mod: Get "https://sum.golang.org/lookup/github.com/op-y/mymodule@v1.0.0": dial tcp 216.58.200.49:443: i/o timeout
 ```
 
-推一个v2.0.0试试
+推一个v2.0.0试试，也不行，过了个把小时，go clean -modcache，删除测试项目的go.mod和go.sum，再试，好了。。。目前尚不清楚是什么原因导致之前的失败。
