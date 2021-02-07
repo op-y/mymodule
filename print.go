@@ -5,5 +5,5 @@ import (
 )
 
 func Print() {
-    fmt.Println("正式发布v1.0.0版本啦！")
+    fmt.Println("试试v2.0.0看看...")
 }
