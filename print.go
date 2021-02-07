@@ -5,5 +5,5 @@ import (
 )
 
 func Print() {
-    fmt.Println("第一个版本，没有Tag，谢谢！")
+    fmt.Println("v0.0.2, 加一个Tag！")
 }
